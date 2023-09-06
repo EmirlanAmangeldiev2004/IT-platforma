@@ -1,0 +1,145 @@
+#footer {
+  .footer {
+    display: flex;
+    justify-content: space-between;
+    h3 {
+      color: #fff;
+      font-size: 20px;
+      font-weight: 500;
+    }
+    p {
+      color: #fff;
+      font-size: 15px;
+      font-weight: 500;
+    }
+    &--logo {
+      &--btns {
+        border: 2px solid #fff;
+        width: 72px;
+        border-radius: 3px;
+        margin-top: 35px;
+        button {
+          padding: 6.5px 4px;
+          background: none;
+          color: #fff;
+          font-size: 16px;
+          font-weight: 400;
+          &:nth-child(1) {
+            border-right: 2px solid #fff;
+            padding: 6.5px 4.5px;
+          }
+        }
+      }
+    }
+    &--links {
+      p {
+        margin-top: 14px;
+        &:first-child {
+          margin-top: 20px;
+        }
+      }
+    }
+    &--social {
+      &--icons {
+        display: grid;
+        grid-template-columns: repeat(3, 32px);
+        gap: 18px;
+        row-gap: 25px;
+        margin-top: 17px;
+        align-items: center;
+      }
+    }
+    &--contact {
+      h3 {
+        font-weight: 400;
+      }
+      p {
+        font-weight: 400;
+      }
+      &--email {
+        display: flex;
+        align-items: center;
+        margin-top: 20px;
+        gap: 12px;
+      }
+      &--tel {
+        display: flex;
+        align-items: center;
+        margin-top: 15px;
+        gap: 12px;
+      }
+    }
+    &--address {
+      padding-right: 20px;
+      h3 {
+        font-weight: 400;
+      }
+      p {
+        font-weight: 400;
+      }
+      &--nav {
+        display: flex;
+        gap: 4px;
+        margin-top: 23px;
+      }
+      &--p {
+        display: flex;
+        flex-direction: column;
+        margin-top: 11px;
+      }
+    }
+  }
+}
+
+@media (max-width: 1060px) {
+  #footer {
+    .footer {
+      &--links {
+        display: none;
+      }
+    }
+  }
+}
+
+@media (max-width: 860px) {
+  #footer {
+    .footer {
+      &--address {
+        display: none;
+      }
+    }
+  }
+}
+
+@media (max-width: 650px) {
+  #footer {
+    .footer {
+      display: block;
+      &--logo {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        &--btns {
+          margin: 0;
+        }
+      }
+      &--social {
+        margin-top: 32px;
+        &--icons {
+          grid-template-columns: repeat(6, 32px);
+          gap: 8%;
+          margin-top: 15px;
+        }
+      }
+      &--contact {
+        margin-top: 35px;
+        &--email {
+          margin-top: 15px;
+        }
+        &--tel {
+          margin-top: 10px;
+        }
+      }
+    }
+  }
+}
