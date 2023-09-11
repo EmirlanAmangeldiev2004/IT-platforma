@@ -1,0 +1,62 @@
+#master {
+  .master {
+    &--btns {
+      display: flex;
+      margin-top: 50px;
+      justify-content: center;
+      &__btn {
+        display: inline-flex;
+        padding: 16px 25px 15px 24px;
+        color: white;
+        border-radius: 5px;
+        background: #043c71;
+        backdrop-filter: blur(7.5px);
+        cursor: pointer;
+      }
+    }
+    &--title {
+      margin-bottom: 50px;
+      text-align: center;
+      color: #fff;
+      font-family: Montserrat, sans-serif;
+      font-size: 36px;
+      font-weight: 700;
+      line-height: 35px; /* 97.222% */
+    }
+    margin-top: 180px;
+    &--cards {
+      display: flex;
+      align-items: center;
+      gap: 50px;
+      flex-direction: column;
+      &__card {
+        z-index: 1;
+        width: 1030px;
+        height: 200px;
+        flex-shrink: 0;
+        border-radius: 10px;
+        background: #fff;
+        box-shadow: 9px 9px 9px 0px rgba(10, 15, 33, 0.45),
+          -5px -3px 10px 0px rgba(16, 23, 47, 0.45);
+        &--title {
+          margin-left: 69px;
+
+          color: #043f75;
+          font-family: Montserrat, sans-serif;
+          font-size: 20px;
+          font-weight: 500;
+          padding-top: 54px;
+        }
+        &--text {
+          margin-left: 69px;
+
+          color: #000;
+          margin-top: 15px;
+          font-family: Montserrat, sans-serif;
+          font-size: 16px;
+          font-weight: 400;
+        }
+      }
+    }
+  }
+}

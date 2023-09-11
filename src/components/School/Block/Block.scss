@@ -1,0 +1,98 @@
+#Block {
+  .block {
+    &--btns {
+      display: flex;
+      justify-content: center;
+
+      &__love {
+        padding: 16px 61px 15px 61px;
+        cursor: pointer;
+        border-radius: 5px;
+        background: #043c71;
+        backdrop-filter: blur(7.5px);
+        color: #fff;
+        text-align: center;
+        font-family: Montserrat, sans-serif;
+        font-size: 16px;
+        font-weight: 500;
+      }
+    }
+    &--title {
+      color: #fff;
+      font-family: Montserrat, sans-serif;
+      font-size: 36px;
+      font-weight: 700;
+      line-height: 35px; /* 97.222% */
+      display: flex;
+      justify-content: center;
+    }
+    &--cards {
+      margin: 50px 0;
+      display: flex;
+      justify-content: space-between;
+      &__card {
+        z-index: 1;
+        padding: 38px 32px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 14px;
+        border-radius: 15px;
+        background: #fff;
+        width: 31%;
+        height: 289px;
+        flex-shrink: 0;
+        &--icon {
+          color: black;
+          font-size: 24px;
+        }
+        &--nav {
+          display: flex;
+          align-items: center;
+          gap: 5px;
+          &--icon {
+            color: black;
+            font-size: 0.5px;
+          }
+          a {
+            text-decoration: none;
+            color: #000;
+            font-family: Montserrat, sans-serif;
+            font-size: 16px;
+            font-weight: 700;
+            border-bottom: 2px solid black;
+          }
+        }
+        &--title {
+          color: #000;
+          font-family: Montserrat, sans-serif;
+          font-size: 24px;
+          font-style: normal;
+          font-weight: 700;
+          line-height: normal;
+        }
+        &--text {
+          color: #000;
+          font-family: Montserrat, sans-serif;
+          font-size: 16px;
+          font-weight: 500;
+          margin: 17px 0 14px 0;
+        }
+      }
+    }
+  }
+}
+
+.kub {
+  width: 749px;
+  height: 749px;
+  border-radius: 50%;
+  background: rgba(36, 149, 236, 0.44);
+  position: absolute;
+  left: 700px;
+  bottom: -576px;
+
+  filter: blur(561.75px);
+  -webkit-box-shadow: 4px 4px 100px 100px rgba(36, 149, 236, 0.44);
+  -moz-box-shadow: 4px 4px 100px 100px rgba(36, 149, 236, 0.44);
+  box-shadow: 4px 4px 100px 100px rgba(36, 149, 236, 0.44);
+}

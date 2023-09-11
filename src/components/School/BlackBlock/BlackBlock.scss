@@ -1,0 +1,97 @@
+#black {
+  .black {
+    &--title {
+      text-align: center;
+      color: #fff;
+      font-family: Montserrat, sans-serif;
+      font-size: 36px;
+      font-weight: 700;
+      margin-top: 180px;
+    }
+    &--text {
+      margin-top: 50px;
+
+      text-align: center;
+      color: #fff;
+      font-family: Montserrat, sans-serif;
+      font-size: 16px;
+      font-weight: 400;
+    }
+    &--blocks {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 50px;
+      &__block {
+        padding-left: 30px;
+        &--title {
+          padding-top: 26px;
+          color: #fff;
+          font-family: Montserrat, sans-serif;
+          font-size: 16px;
+          font-weight: 700;
+        }
+        &--string {
+          color: #fff;
+          font-family: Montserrat, sans-serif;
+          font-size: 48px;
+          font-weight: 700;
+          margin-top: 35px;
+        }
+
+        &--text2 {
+          color: #fff;
+          font-family: Montserrat, sans-serif;
+          font-size: 12px;
+          font-weight: 400;
+          margin-top: 20px;
+        }
+        &--btns {
+          margin-top: 39px;
+
+          &__btn {
+            cursor: pointer;
+            margin-right: 10px;
+            width: 150px;
+            height: 36px;
+            flex-shrink: 0;
+            border-radius: 3.273px;
+            border-radius: 5px;
+            background: #043c71;
+            color: #fff;
+            text-align: center;
+            font-family: Montserrat, sans-serif;
+            font-size: 12px;
+            font-weight: 400;
+          }
+          &__btn2 {
+            cursor: pointer;
+            width: 130px;
+            color: #fff;
+            text-align: center;
+            font-family: Montserrat, sans-serif;
+            font-size: 12px;
+            font-weight: 400;
+            height: 37px;
+            flex-shrink: 0;
+            border-radius: 3.273px;
+            background-color: #040b23;
+            border: solid 1px #043c71;
+          }
+        }
+        &--text {
+          color: #fff;
+          font-family: Montserrat, sans-serif;
+          font-size: 15px;
+          font-weight: 400;
+          margin-top: 10px;
+        }
+        width: 30%;
+        height: 325px;
+        flex-shrink: 0;
+        border-radius: 10px;
+        background: #0a1128;
+        box-shadow: -4px -3px 24px 0px #040b23, 6px 6px 14px -117px #132049;
+      }
+    }
+  }
+}

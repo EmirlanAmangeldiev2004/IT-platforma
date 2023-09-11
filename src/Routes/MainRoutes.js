@@ -1,15 +1,16 @@
 import React from "react";
 import { Route, Routes } from "react-router-dom";
+import School from "../components/School/School";
 
 const MainRoutes = () => {
-  let PUBLIC = [];
+  let PUBLIC = [{ link: "/", element: <School />, id: 2 }];
   return (
     <>
-      {/* <Routes>
+      <Routes>
         {PUBLIC.map((item) => (
           <Route path={item.link} element={item.element} key={item.id} />
         ))}
-      </Routes> */}
+      </Routes>
     </>
   );
 };
