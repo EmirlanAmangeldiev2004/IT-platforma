@@ -1,0 +1,71 @@
+#akardeon {
+  .akardeon {
+    display: flex;
+    justify-content: space-between;
+    margin: 200px 0 150px 0;
+    &--images {
+      width: 270px;
+      h1 {
+        color: #fff;
+        font-size: 48px;
+        font-weight: 700;
+        line-height: 45px;
+      }
+      img {
+        margin: 44px 0 0 24px;
+      }
+    }
+    &--all {
+      &--textOne {
+        width: 700px;
+        p {
+          color: #fff;
+          font-size: 20px;
+          font-weight: 500;
+          display: flex;
+          flex-direction: column;
+        }
+        &--first {
+          border-bottom: 1.5px solid #767676;
+          padding: 11px 13px 16px 0;
+          display: flex;
+          justify-content: space-between;
+          margin-bottom: 29px;
+          align-items: center;
+          span {
+            cursor: pointer;
+          }
+          .down.click {
+            width: 14px;
+            height: 14px;
+            border-right: 2.5px solid #fff;
+            border-bottom: 2.5px solid #fff;
+            transform: rotate(45deg);
+            transition: 0.5s;
+            margin-top: -6px;
+          }
+          .up.unclick {
+            width: 14px;
+            height: 14px;
+            border-left: 2.5px solid #fff;
+            border-top: 2.5px solid #fff;
+            transform: rotate(45deg);
+            transition: 0.6s;
+            margin-top: 10px;
+          }
+        }
+        &--text {
+          margin-top: 30px;
+          transition: all 0.5s;
+          p {
+            color: #fff;
+            font-size: 20px;
+            font-weight: 500;
+            margin-bottom: 30px;
+            width: 99%;
+          }
+        }
+      }
+    }
+  }
+}
