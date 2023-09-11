@@ -1,6 +1,7 @@
 #header {
   backdrop-filter: blur(17px);
   position: sticky;
+  background-color: rgba(26, 33, 67, 0.338);
   top: 0;
   left: 0;
   right: 0;
@@ -8,6 +9,7 @@
   height: 100px;
   display: flex;
   align-items: center;
+  z-index: 30;
   .header {
     display: flex;
     justify-content: space-between;

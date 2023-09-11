@@ -1,0 +1,44 @@
+#signUp {
+  .signUp {
+    display: flex;
+    border-radius: 10px;
+    background: #fff;
+    box-shadow: 9px 9px 9px 0px rgba(10, 15, 33, 0.45),
+      -5px -3px 10px 0px rgba(16, 23, 47, 0.45);
+    padding: 73px 109px 57px 70px;
+    justify-content: space-between;
+    margin-top: 173px;
+    &--text {
+      width: 52%;
+      h2 {
+        color: #000;
+        font-size: 28px;
+        font-weight: 700;
+      }
+      p {
+        color: #000;
+        font-size: 16px;
+        font-weight: 500;
+        margin-top: 20px;
+      }
+    }
+    &--btns {
+      button {
+        padding: 15px 38px;
+        border-radius: 5px;
+        background: #034078;
+        color: #fff;
+        text-align: center;
+        font-size: 16px;
+        font-weight: 500;
+      }
+      p {
+        color: #767676;
+        text-align: center;
+        font-size: 16px;
+        font-weight: 500;
+        margin-top: 20px;
+      }
+    }
+  }
+}
