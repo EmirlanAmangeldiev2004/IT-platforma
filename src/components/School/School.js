@@ -3,17 +3,17 @@ import Hero from "./Hero/Hero";
 import Block from "./Block/Block";
 import MasterClass from "./MasterClass/MasterClass";
 import BlackBlock from "./BlackBlock/BlackBlock";
-import Choice from "./Choice/Choice";
+import Inputs from "./../Home/Inputs/Inputs";
 
 const School = () => {
   return (
-    <>
+    <div className="School">
       <Hero />
       <Block />
       <MasterClass />
       <BlackBlock />
-      <Choice />
-    </>
+      <Inputs />
+    </div>
   );
 };
 

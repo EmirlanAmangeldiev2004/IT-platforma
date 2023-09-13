@@ -1,11 +1,12 @@
 import React from "react";
+// import { useRoat } from "../../../context/RoatContextProvider";
 import web from "../Hero/web.png";
 
 const Hero = () => {
+  // const { messi } = useRoat();
   return (
     <div id="Hero">
       <div className="container">
-        <p className="messi">Главная</p>
         <div className="hero">
           <div className="hero--cards">
             <div className="hero--cards__block">

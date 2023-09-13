@@ -1,9 +1,11 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
+// import { useRoat } from "../../context/RoatContextProvider";
 import logo from "../Header/logo.svg";
 import menu from "../Header/menu.svg";
 
 const Header = () => {
+  // const { setMessi } = useRoat();
   return (
     <header id="header">
       <div className="container">
@@ -13,7 +15,9 @@ const Header = () => {
               <img src={logo} alt="logo" />
             </NavLink>
             <nav>
-              <li>О школе</li>
+              <NavLink to="/school">
+                <li>О школе</li>
+              </NavLink>
               <li>Наши курсы</li>
               <li>О нас</li>
             </nav>

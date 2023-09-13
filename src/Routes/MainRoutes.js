@@ -1,13 +1,13 @@
 import React from "react";
 import { Route, Routes } from "react-router-dom";
 import School from "../components/School/School";
-
-const MainRoutes = () => {
-  let PUBLIC = [{ link: "/", element: <School />, id: 2 }];
 import Home from "./../components/Home/Home";
 
 const MainRoutes = () => {
-  let PUBLIC = [{ link: "/", element: <Home />, id: 1 }];
+  let PUBLIC = [
+    { link: "/", element: <Home />, id: 1 },
+    { link: "/school", element: <School />, id: 2 },
+  ];
   return (
     <>
       <Routes>

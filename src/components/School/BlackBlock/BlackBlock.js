@@ -51,7 +51,7 @@ const BlackBlock = () => {
                 </button>
                 <button className="black--blocks__block--btns__btn2">
                   Подробнее
-                </button>n
+                </button>
               </div>
             </div>
           </div>

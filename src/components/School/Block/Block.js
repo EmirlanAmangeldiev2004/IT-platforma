@@ -1,7 +1,7 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import { BsArrowRight } from "react-icons/bs";
-import imb from "../Block/Arrow 2.png";
+// import { BsArrowRight } from "react-icons/bs";
+// import img from "../Block/Arrow 2.png";
 
 const Block = () => {
   return (
@@ -23,7 +23,7 @@ const Block = () => {
               <div className="block--cards__card--nav">
                 <NavLink to={"/Подробнее"}>Подробнее</NavLink>
                 <h1>
-                  <BsArrowRight className="block--cards__card--icon" />
+                  {/* <BsArrowRight className="block--cards__card--icon" /> */}
                 </h1>
               </div>
             </div>
@@ -38,7 +38,7 @@ const Block = () => {
               <div className="block--cards__card--nav">
                 <NavLink to={"/Подробнее"}>Подробнее</NavLink>
                 <h1>
-                  <BsArrowRight className="block--cards__card--icon" />
+                  {/* <BsArrowRight className="block--cards__card--icon" /> */}
                 </h1>
               </div>
             </div>
@@ -53,12 +53,11 @@ const Block = () => {
               <div className="block--cards__card--nav">
                 <NavLink to={"/Подробнее"}>Подробнее</NavLink>
                 <h1>
-                  <BsArrowRight className="block--cards__card--icon" />
+                  {/* <BsArrowRight className="block--cards__card--icon" /> */}
                 </h1>
               </div>
             </div>
           </div>
-          <div className="kub"></div>
           <div className="block--btns">
             <button className="block--btns__love">Все курсы</button>
           </div>
